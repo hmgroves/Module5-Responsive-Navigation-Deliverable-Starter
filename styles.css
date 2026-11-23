@@ -5,7 +5,9 @@ body { margin:0; color:var(--ink); background:var(--paper); font:1rem/1.5 Arial,
 .skip-link:focus { top:.5rem; }
 .site-header { background:var(--brand); color:var(--paper); padding:var(--space); }
 .brand { color:inherit; font-size:1.25rem; font-weight:700; }
-.menu-button { margin-top:.75rem; min-height:2.75rem; padding:.5rem .9rem; border:2px solid var(--accent); background:var(--accent); color:var(--ink); font:inherit; font-weight:700; }
+.menu-button { margin-top:.75rem; min-height:2.75rem; padding:.5rem .9rem; border:2px solid var(--accent); background:var(--accent); 
+    color:var(--ink); font:inherit; font-weight:700; }
+.menu-button:hover {cursor: pointer; border:2px solid var(--paper); }
 .nav-list { list-style:none; margin:.75rem 0 0; padding:0; display:grid; gap:.25rem; }
 .nav-list a { display:block; color:var(--paper); padding:.7rem; text-decoration:none;  margin: 0 .25rem;}
 .nav-list a:hover, .nav-list a:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
@@ -18,7 +20,7 @@ main { min-height:55vh; padding-block:2rem; }
   .menu-button { display:none; }
   .nav-list, .js .nav-list[data-open] { display:flex; margin:0; flex-wrap:wrap; width: auto; }
 }
-@media (max-width:65rem) {
+@media (max-width:64.99rem) {
    .nav-list { max-width: 25rem; }
    .nav-list a { margin: .25rem; } 
 }

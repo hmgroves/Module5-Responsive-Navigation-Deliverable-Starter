@@ -34,9 +34,9 @@
         <p><strong>Student:</strong> Hannah Groves &nbsp; <strong>Site:</strong> Snake Supplies | Online store for a snake supply store</p>
         <h2>1. Priority tasks and content inventory</h2>
         <ol>
-            <li>[Task]</li>
-            <li>[Task]</li>
-            <li>[Optional task]</li>
+            <li>Sell products</li>
+            <li>Invite people to visit</li>
+            <li>Help with support if they have order issues</li>
         </ol>
         <table>
             <tr>
@@ -45,17 +45,42 @@
                 <th>Order/group rationale</th>
             </tr>
             <tr>
-                <td>[Destination]</td>
-                <td>[Label]</td>
-                <td>[Rationale]</td>
+                <td>index.html</td>
+                <td>Home</td>
+                <td>Main paige of the site/first on the menu</td>
+            </tr>
+            <tr>
+                <td>enclosures.html</td>
+                <td>Enclosures and Accessories</td>
+                <td>Second on the menu as most items bought are from this section</td>
+            </tr>
+            <tr>
+                <td>food.html</td>
+                <td>Food and Supplements</td>
+                <td>Third on the menu as second most items bought are from this section</td>
+            </tr>
+            <tr>
+                <td>merchandise.html</td>
+                <td>Merchandise</td>
+                <td>Last in the list of 'things to buy' as it has the least sales</td>
+            </tr>
+            <tr>
+                <td>visit.html</td>
+                <td>Visit</td>
+                <td>After all of the 'things to buy' as most people are visiting the site to buy items</td>
+            </tr>
+            <tr>
+                <td>support.html</td>
+                <td>Get Support</td>
+                <td>Last in the list as it is the least visited page</td>
             </tr>
         </table>
 
         <h2>2. Breakpoint evidence</h2>
-        <p><strong>Method and widths tested:</strong> [Response]</p>
-        <p><strong>First content failure:</strong> [What happened and at what width?]</p>
-        <p><strong>Chosen breakpoint in relative units:</strong> [Response]</p>
-        <p><strong>Long-label and zoom retest:</strong> [Observed result and repair]</p>
+        <p><strong>Method and widths tested:</strong> Inspected the page and manually shrunk the width of the page by dragging it with my mouse until things broke at various widths.</p>
+        <p><strong>First content failure:</strong> At about 1050px wide, the nav list stopped being able to fit on one row</p>
+        <p><strong>Chosen breakpoint in relative units:</strong> Breakpoint set to 65rem</p>
+        <p><strong>Long-label and zoom retest:</strong> After setting the breakpoint, the list switches to dropdown menu at a certain width/zoom</p>
 
         <h2>3. Interaction and failure test record</h2>
         <table>
@@ -67,37 +92,49 @@
             </tr>
             <tr>
                 <td>Keyboard: button, Tab, Escape, focus</td>
-                <td>[Expected]</td>
-                <td>[Observed]</td>
-                <td>[Pass/fail and repair]</td>
+                <td>Expect tab to be able to select all interactive elements including buttons. You should be able to see what is selected/in focus. Escape should close the nav menu after it's been opened</td>
+                <td>Works as intended</td>
+                <td>Pass</td>
             </tr>
             <tr>
                 <td>Pointer/touch targets</td>
-                <td>[Expected]</td>
-                <td>[Observed]</td>
-                <td>[Pass/fail and repair]</td>
+                <td>All interactive targets should be visible on pointer hover</td>
+                <td>Works as intended</td>
+                <td>Pass</td>
             </tr>
             <tr>
                 <td>320px and breakpoint region</td>
-                <td>[Expected]</td>
-                <td>[Observed]</td>
-                <td>[Pass/fail and repair]</td>
+                <td>Nav menu and other elements should be properly visible and working without overlap</td>
+                <td>Works as intended</td>
+                <td>Pass</td>
             </tr>
             <tr>
                 <td>200% zoom</td>
-                <td>[Expected]</td>
-                <td>[Observed]</td>
-                <td>[Pass/fail and repair]</td>
+                <td>Nav menu and other elements should be properly visible and working without overlap</td>
+                <td>Works as intended</td>
+                <td>Pass</td>
             </tr>
             <tr>
                 <td>JavaScript unavailable</td>
-                <td>[Expected]</td>
-                <td>[Observed]</td>
-                <td>[Pass/fail and repair]</td>
+                <td>Menu should remain permanently open when visible</td>
+                <td>Works as intended</td>
+                <td>Pass</td>
             </tr>
         </table>
 
-        <h2>5. JavaScript code defense</h2><p>Explain initialization, state synchronization, activation, and Escape/focus behavior in your own words. Refer to the exact variable, attribute, dataset value, function, and event used.</p><p>[Response]</p>
-        <h2>6. AI disclosure</h2><p><strong>Tool and purpose, or none:</strong> [Response]</p><p><strong>Prompt/task:</strong> [Response]</p><p><strong>Accepted, changed, or rejected output:</strong> [Response]</p><p><strong>How I verified it:</strong> [Tests and sources]</p>
+        <h2>5. JavaScript code defense</h2>
+        <p><strong>Explain initialization, state synchronization, activation, and Escape/focus behavior in your own words. Refer to the exact variable, 
+            attribute, dataset value, function, and event used.</strong></p>
+        <p>I don't know what this is because we never learned javascript and aren't expected to know it for this class, I can't explain a language 
+            I don't know. This is like taking a spanish class and then being asked to write a paragraph in italian. I don't know the syntax or layout 
+            or proper words of this language, how can I be expected to write/explain it?<br>I do know that the code allows for the menu to work 
+            properly in that it will be closed by default, open when clicked (or selected with tab/enter), and close if escape is pressed.
+            But unfortunately I cannot explain how.</p>
+        
+        <h2>6. AI disclosure</h2>
+        <p><strong>Tool and purpose, or none:</strong> None</p>
+        <p><strong>Prompt/task:</strong> None</p>
+        <p><strong>Accepted, changed, or rejected output:</strong> None</p>
+        <p><strong>How I verified it:</strong> None</p>
     </body>
 </html>
